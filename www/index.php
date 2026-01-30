@@ -309,6 +309,7 @@
          </div>
       </div>
       <div id="secondary-buttons" class="container-fluid text-center">
+         <a href="live.php" class="btn btn-primary">Live stream control panel</a>
          <?php pan_controls(); ?>
          <?php user_buttons(); ?>
          <a href="preview.php" class="btn btn-default" <?php getdisplayStyle('preview', $userLevel); ?>>Download Videos and Images</a>
