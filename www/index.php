@@ -308,10 +308,12 @@
             <input id="halt_button" type="button" class="btn btn-danger" <?php getdisplayStyle('settings', $userLevel); ?>>
          </div>
       </div>
-      <div id="secondary-buttons" class="container-fluid text-center">
-         <a href="live.php" class="btn btn-primary">Live stream control panel</a>
+      <div id="secondary-buttons1" class="container-fluid text-center">
          <?php pan_controls(); ?>
          <?php user_buttons(); ?>
+         <a href="live.php" class="btn btn-primary">Live stream control panel</a>
+      </div>
+      <div id="secondary-buttons2" class="container-fluid text-center">
          <a href="preview.php" class="btn btn-default" <?php getdisplayStyle('preview', $userLevel); ?>>Download Videos and Images</a>
          &nbsp;&nbsp;
          <?php  if($config['motion_external'] == '1'): ?><a href="motion.php" class="btn btn-default" <?php getdisplayStyle('settings', $userLevel); ?>>Edit motion settings</a>&nbsp;&nbsp;<?php endif; ?>

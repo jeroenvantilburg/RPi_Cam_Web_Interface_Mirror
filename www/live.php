@@ -93,12 +93,12 @@ $isRunning = file_exists($flagFile);
     <p>Live streaming is currently <?php echo $isRunning ? 'running' : 'not running'; ?>.</p>
     <a href="index.php" class="button grey">Back to the web cam control</a>
     <p>
-<div class="video-wrap">
+<!-- div class="video-wrap">
 <div class="video-container">
 <iframe width="560" height="315" frameborder="0" src="https://www.youtube.com/embed/LU-HkRLido4?si=NU6SeBdvVoUhYOj3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-</div>
-    <a href="https://www.youtube.com/watch?v=LU-HkRLido4" class="button grey">Watch on Youtube</a>
+</div-->
+    <a href="https://www.youtube.com/@jvantilburg/live" target="_blank" class="button grey">Watch on Youtube</a>
 
 
 </body>
