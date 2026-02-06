@@ -17,6 +17,7 @@ if [ "$_IP" ]; then
 fi
 
 #START RASPIMJPEG SECTION
+su -c '/var/www/macros/set_IRCUT_auto.py &> /dev/null &' www-data
 mkdir -p /dev/shm/mjpeg
 chown www-data:www-data /dev/shm/mjpeg
 chmod 777 /dev/shm/mjpeg

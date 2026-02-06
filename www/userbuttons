@@ -1,0 +1,7 @@
+#User buttons definitions
+#maximum of twelve buttons
+#button name,macro,button styles,other attributes
+IRcut day mode,set_IRCUT_day.py
+IRcut night mode,set_IRCUT_night.py
+IRcut auto mode,set_IRCUT_auto.py
+#Success Button,button3.sh,btn btn-success btn-lg,style="width:50%"
